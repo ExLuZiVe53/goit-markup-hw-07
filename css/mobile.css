@@ -135,6 +135,43 @@
     .mobile-nav .link:focus {
         color: #404BBF;
     }
+    
+    .link-phone {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1;
+    
+        text-transform: capitalize;
+    
+        color: #4D5AE5;
+    }
+
+    .link-mail {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+
+        color: #434455;
+    }
+    
+    .mobile-contacts {
+        margin-bottom: 48px;
+    }
+
+
+    .mobile-contacts .item {
+        display: block;
+    }
+
+    .mobile-contacts .item:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    .socials-list.mobile {
+        justify-content: flex-start;
+        gap: 56px;
+    }
+
 }
 
 @media (min-width: 768px) {
