@@ -1,0 +1,118 @@
+@media screen and (min-width: 768px) {
+    .container {
+        min-width: 768px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .menu-container {
+        display: none;
+    }
+
+    /* Header section */
+
+    .address-nav {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .address-nav .navigation {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .address {
+        padding-top: 16px;
+        padding-bottom: 16px;
+    }
+
+    /* Features section */
+
+    .section.features{
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .icon-container {
+        display: none;
+    }
+
+    .features-list {
+        row-gap: 72px;
+        column-gap: 24px;
+    }
+
+    .features-list .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1em;
+        text-transform: capitalize;
+    }
+
+    .features-list .item {
+        max-width: 356px;
+    }
+
+    /* Benefits section */
+
+    .section.benefits {
+        display: none;
+    }
+
+    /* Section Emploers */
+
+    .section.emploers {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .employers-list {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    /* Section clients */
+
+    .section.clients {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+    
+    .item-list-brands {
+        flex-wrap: wrap;
+        row-gap: 72px;
+        column-gap: 24px
+    }
+
+    /* Footer section */
+
+    footer {
+        padding-top: 96px;
+        padding-bottom: 96px;
+        padding-left: 108px;
+    }
+
+    .footer > .container-flex {
+        flex-wrap: wrap;
+        
+    }
+
+    .social-links-left {
+        margin-right: 24px;
+    }
+
+    .social-links-right {
+        margin-bottom: 72px;
+    }
+
+    .footer-subscribe {
+        
+    }
+        
+}
+
+@media screen and (min-width: 768px) {
+    .modal {
+        max-width: 408px;
+    }
+}
