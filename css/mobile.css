@@ -1,8 +1,13 @@
 @media screen and (min-width: 428px) {
     .container {
-        width: 428px;
+        max-width: 428px;
+        min-width: 320px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
+
+
 
 /* Mobile-menu */
 
@@ -39,8 +44,10 @@
         left: 0;
         width: 100vw;
         height: 100vh;
+       
         background-color: #ffffff;
         z-index: 999;
+        overflow: scroll;
 
         transform: translateX(100%);
         transition: transform 250ms ease-in-out;
@@ -190,10 +197,63 @@
         padding-bottom: 96px;
     }
 
-    .features-list .title {
-        
+    .features-list {
+        gap: 72px;
     }
 
+    .features-list .title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.1em;
+    
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .features-list .text {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    /* Benefits section */
+
+    .section.benefits {
+        display: none;
+    }
+
+    /* Emploers section */
+        
+    .section.emploers {
+        padding-top: 96px;
+        padding-bottom: 96px;   
+    }
+
+    .employers-list {
+        flex-wrap: wrap;
+        gap: 72px;
+        justify-content: center;
+    }
+
+    /* Clients sections */
+
+    .section.clients {
+        padding-top: 96px;
+        padding-bottom: 96px;
+    }
+
+    .item-list-brands {
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .list-item-brands:nth-child(2n) {
+        margin-bottom: 72px;
+    }
+
+    .list-item-brands:last-child {
+        margin-bottom: 0;
+    }
 }
 
 @media (min-width: 768px) {
