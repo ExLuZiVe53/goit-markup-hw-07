@@ -50,6 +50,12 @@ p {
     padding-right: 15px;
 }
 
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
 .container-flex {
     display: flex;
 }
