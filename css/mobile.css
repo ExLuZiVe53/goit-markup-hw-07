@@ -251,10 +251,10 @@
 
     .item-list-brands {
         flex-wrap: wrap;
-        gap: 0;
+        gap: 72px 24px;
     }
 
-    .list-item-brands:nth-child(2n + 1) {
+    /* .list-item-brands:nth-child(2n + 1) {
         margin-right: 24px;
     }
 
@@ -264,7 +264,7 @@
 
     .list-item-brands:last-child {
         margin-bottom: 0;
-    }
+    } */
 
     /* Footer */
 
