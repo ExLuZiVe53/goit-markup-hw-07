@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container {
-        min-width: 768px;
+        max-width: 768px;
         
     }
 }
@@ -25,6 +25,8 @@
     }
 }
 
+
+
 @media screen and (min-width: 768px) {
     .menu-container {
         display: none;
@@ -40,12 +42,9 @@
     .address-nav .navigation {
         padding-top: 0;
         padding-bottom: 0;
+        font-size: 12px;
     }
 
-    .address {
-        padding-top: 16px;
-        padding-bottom: 16px;
-    }
 
     /* Features section */
 
@@ -110,28 +109,25 @@
     footer {
         padding-top: 96px;
         padding-bottom: 96px;
-        padding-left: 108px;
-        padding-right: 108px;
     }
 
     .footer > .container-flex {
         flex-wrap: wrap;
-        
+        gap: 72px 24px;
     }
 
     .social-links-left {
         margin-right: 24px;
     }
-
-    .social-links-right {
-        margin-bottom: 72px;
-    }
-
-    .footer-subscribe {
-        
-    }
         
 }
+
+@media screen and (min-width: 768px) {
+    .footer .container-flex {
+        padding-left: 108px;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
     .modal {
