@@ -1700,6 +1700,7 @@ footer {
     .footer .container-flex {
         padding-left: 0;
         gap: 0;
+        width: auto;
     }
 
     footer {
@@ -1710,5 +1711,9 @@ footer {
     .social-links-left {
         margin-right: 120px;
     }
+
+     .footer-subscribe {
+        margin-left: 80px;
+     }
         
  }
