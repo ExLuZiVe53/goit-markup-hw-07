@@ -1287,6 +1287,7 @@ footer {
 
      .features-list {
          gap: 72px;
+         flex-direction: column;
      }
 
      .features-list .title {
@@ -1492,6 +1493,8 @@ footer {
      }
 
      .features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
          row-gap: 72px;
          column-gap: 24px;
      }
@@ -1616,6 +1619,7 @@ footer {
 
     .features-list {
         gap: 24px;
+        flex-wrap: nowrap;
     }
 
     /* Benefits */
