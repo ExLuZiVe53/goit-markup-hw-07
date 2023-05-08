@@ -1143,6 +1143,8 @@ footer {
          height: 100%;
          padding: 80px 40px 40px 40px;
          background-color: #ffffff;
+
+        overflow-y: scroll;
      }
 
      .menu-container.is-open {
