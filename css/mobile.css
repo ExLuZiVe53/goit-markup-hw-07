@@ -36,7 +36,7 @@
 
 
 @media only screen and (max-width: 767px) {
-    .site-nav.list {
+    .site-nav {
         display: none;
     }
 
