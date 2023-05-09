@@ -468,6 +468,8 @@ ul.site-nav:nth-child(2n) {
 }
 
 .checkbox-icon {
+    
+    flex-shrink: 0;
 
     width: 16px;
     height: 16px;
@@ -575,7 +577,7 @@ ul.site-nav:nth-child(2n) {
 .socials-list {
     display: flex;
     justify-content: center;
-    
+    gap: 24px;
 }
 
 .socials-list-item {
@@ -1057,10 +1059,16 @@ footer {
         min-width: 320px;
         /* min-height: 100%; */
    }
-    .overlay-mobile-container>.socials-list.mobile {
-       gap: 24px;
-   }
+
+    
+    
    
+ }
+
+ @media only screen and (max-width: 427px) {
+     .overlay-mobile-container>.socials-list.mobile {
+        gap: 24px;
+    }
  }
 
 
@@ -1512,6 +1520,7 @@ footer {
          padding-top: 0;
          padding-bottom: 0;
          font-size: 12px;
+         line-height: 1.17em;
      }
 
      /* Hero */
@@ -1631,6 +1640,11 @@ footer {
          display: flex;
      }
 
+     .section.hero {
+         padding-top: 188px;
+         padding-bottom: 188px;
+     }    
+
     .address-nav {
         display: flex;
         flex-direction: row;
@@ -1664,6 +1678,10 @@ footer {
     .features-list {
         gap: 24px;
         flex-wrap: nowrap;
+    }
+
+    .features-list .text {
+        font-weight: 400;
     }
 
     /* Benefits */
