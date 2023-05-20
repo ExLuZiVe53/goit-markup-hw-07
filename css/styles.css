@@ -1583,8 +1583,8 @@ footer {
      .features-list {
         flex-direction: row;
         flex-wrap: wrap;
-         row-gap: 72px;
-         column-gap: 24px;
+        row-gap: 72px;
+        column-gap: 24px;
      }
 
      .features-list .title {
@@ -1648,6 +1648,12 @@ footer {
      }
 
 
+     /* Portfolio */
+     /* Galery Section */
+
+    .galery-list .item {
+        width: calc((100% - 24px) / 2);
+    }
  }
 
  @media screen and (min-width: 768px) {
@@ -1771,5 +1777,10 @@ footer {
      .footer-subscribe {
         margin-left: 80px;
      }
-        
+
+     /* Portfolio */
+     /* Section Galery */
+     .galery-list .item {
+        width: calc((100% - 48px) / 3);
+    }
  }
